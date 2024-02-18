@@ -1,8 +1,8 @@
 class Skunk < Formula
   desc 'Very smelly'
   homepage 'https://github.com/hokita/skunk'
-  url 'https://github.com/hokita/skunk/archive/1.0.0.tar.gz'
-  sha256 '475098760e318f97d3d98b01dfeb7c495e87c60c45072d190e09b35e1265724d'
+  url 'https://github.com/hokita/skunk/archive/1.1.0.tar.gz'
+  sha256 'fb7e5b7aaa60eba09898e2749717459145b769330a0bd81c7c2c50f7c5a103ab'
   license ''
 
   depends_on 'go' => :build
