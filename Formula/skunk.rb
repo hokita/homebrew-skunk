@@ -1,9 +1,9 @@
 class Skunk < Formula
   desc 'Very smelly'
   homepage 'https://github.com/hokita/skunk'
-  url 'https://github.com/hokita/skunk/archive/1.1.0.tar.gz'
-  sha256 'fb7e5b7aaa60eba09898e2749717459145b769330a0bd81c7c2c50f7c5a103ab'
-  license ''
+  url 'https://github.com/hokita/skunk/archive/1.2.0.tar.gz'
+  sha256 '37f5ce0495fa6af677a21cec6ad5e9e6ec542dfb2475fe92a2cd370a37326322'
+  license 'MIT'
 
   depends_on 'go' => :build
 
@@ -13,6 +13,6 @@ class Skunk < Formula
   end
 
   test do
-    system 'skunk', '--version'
+    system "#{bin}/skunk", '--version'
   end
 end
