@@ -1,8 +1,8 @@
 class Turtle < Formula
   desc 'Try a slow life like turtle.'
   homepage 'https://github.com/hokita/turtle'
-  url 'https://github.com/hokita/turtle/archive/0.0.1.tar.gz'
-  sha256 '2036dbb4067515221796148015f5e70e31cc1055c7477367f29a2ede327bfdf0'
+  url 'https://github.com/hokita/turtle/archive/0.0.2.tar.gz'
+  sha256 '062f0dcafa623b8c186ee42dd4cfd07a2ca888795b70864f977224f4c817dc79'
   license 'MIT'
 
   depends_on 'go' => :build
